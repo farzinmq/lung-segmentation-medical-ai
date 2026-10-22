@@ -1,0 +1,12 @@
+# Python and macOS artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Dataset and generated training outputs
+Darwin/
+Results/pipeline_run/
+
+# Large model checkpoints are shared by request, not stored in Git
+Weights/*.weights.h5
+Weights/*.h5

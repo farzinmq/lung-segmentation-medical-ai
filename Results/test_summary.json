@@ -1,0 +1,12 @@
+{
+  "test_images": 603,
+  "threshold": 0.5,
+  "mean_dice": 0.9470012376049364,
+  "median_dice": 0.9562030145491267,
+  "std_dice": 0.03180726885123758,
+  "mean_iou": 0.900976245213745,
+  "median_iou": 0.9160814103482873,
+  "std_iou": 0.05432160623753404,
+  "empty_ground_truth_masks": 0,
+  "checkpoint": "Weights/best_unet.weights.h5"
+}
